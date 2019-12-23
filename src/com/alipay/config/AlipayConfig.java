@@ -2,6 +2,7 @@
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.temporal.ValueRange;
 
 /* *
  *类名：AlipayConfig
@@ -67,6 +68,9 @@ public class AlipayConfig {
                 }
             }
         }
+    }
+    public void today(){
+        System.out.print("hello world!");
     }
 }
 
